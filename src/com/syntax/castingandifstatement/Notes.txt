@@ -1,0 +1,54 @@
+                                             TYPE CASTING: 
+ By Type casting we mean converting a value from one data type to another data type. 
+ This applies to primitive data types only. e.g we can convert a short to a long, a long to a float etc
+ To cast, we use parenthesis inside which we specify the data type we wish to convert to.
+
+
+Usually;
+  1. byte is the smallest box. it can store 8 bits. it can store only whole numbers
+  2. short is slightly larger than byte. it can store double the size of byte in terms of bits (16bits). it can store only whole numbers
+  3. char it can store 16 bits
+  4. int is quite large. it can store 32 bits. it can store only whole numbers
+  5. long is a slightly large. it can store 64bits. it can store only whole numbers
+  6. float is a larger box. it can store 32bits. it can store only decimals
+  7. double this is the largest. it can store 64bits. it can store only decimal
+  
+  Java can only store values according to the above. We can however change this by the use of Casting. 
+  
+There are two types of casting
+ 1. Explicit also called narrowing or Manual
+       Explicit type casting involves the conversion of Larger data types to smaller data types. More like shrinking it
+       The use of parenthesis is mandatory during explicit casting
+       Java does not do this type of casting automatically because there is will be data loss. larger data types cannot conveniently fit into smaller data types. We do this manually by forcing java using parenthesis containing the data type we want to convert to 
+       
+ 2. Implicit also called Widening or Automatic
+     Implicit type casting involves the conversion of smaller data types to larger data types
+     The use of parenthesis is not mandatory during implicit casting.
+     Java does this type of casting automatically because there is no data loss. Smaller data types can fit into larger data types hence we do not need to use parenthesis.
+     Implicit casting sometimes is not best practice as its usually a waste of space to fit smaller data types into larger data types e.g fitting the value 100 into long data type when int can take it
+
+REASON FOR TYPE CASTING
+         1. For code compatibility. When working in teams we might need to convert data from different data types
+         2. When working with math some times we need to get rid of of decimal part as we may be interested in the non decimal part
+
+
+
+                           JAVA FLOW CONTROLS
+
+1. CONDITIONAL STATEMENTS
+            A. If Statements
+                  This statements helps in decision making
+                  They work based on true or false. "If" expects something that equates to true. "Else" expects something that equates to false
+                  When checking two things if one of them is true, IfElse condition will return true
+                  E.g 15>=15 will return true. 15 may not be greater than 15 but it is equal to 15
+                  20<=21 will return true. 20 may not be equal to 21 but it is less than 21
+        
+ 
+                  There are many variations of the If statements
+                       1. If : This is the most basic. it tell you to executes when a particular condition is true
+                       2. If Else: This gives a secondary path of execution when the if condition is false
+                       3. If Else If: Allows you write/test multiple conditions
+                       4. Nested If
+  
+            
+   

@@ -1,0 +1,33 @@
+A string is a combination of different characters
+A string is a class. so it has its own attributes and behavior. to define objects we use methods. the string class has a lot of methods that 
+can be use to Manipulate string variables
+
+          Home work
+1. Store user name, password and confirm password from a user and check following requirements:
+
+User name and Password cannot be  empty, if so→ message=”User name and Password cannot be empty”.
+Password should be minimum 8 characters, if less → message=”Password is too short”.
+Password cannot contain user name if so, → message=”Password cannot contain user name”.
+Password should match confirmed password, if not  → message=“Passwords do not match”.
+
+Only after all requirements met → message “Your user name and password has been created”
+
+
+2. Create a String and if the String is not empty perform the following: 
+if the String has an odd number of characters and has 3 or more characters, print the character in the middle of the String.
+
+Create a String and print it in reverse order (Sunday → yadnuS).
+Write a program that reads two people's first
+names and if they expecting boy or girl? 
+Based on the input suggests a name for a baby:
+Example Output:
+Mom’s first name? Mary
+Dad’s first name? Daniel
+Boy or Girl? boy
+Suggested baby name: DANRY
+
+Example Output:
+Mom’s first name? Mary
+Dad’s first name? Daniel
+Boy or Girl? girl
+Suggested baby name: MAIEL

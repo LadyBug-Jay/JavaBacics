@@ -1,0 +1,25 @@
+Loop regardless of what kind of loop it is, repeats a block of codes based on the true condition until condition becomes false
+
+Importance of loop
+      1. We need loops to execute a block of code multiple time 
+      2. to eliminate repetitive times
+      3. We use loop to avoid code redundancy
+      4. Loop saves time
+
+  example if i want to say good morning 5 times i will have to write 5 print statements
+  
+  System.out.println("Good Morning");
+    System.out.println("Good Morning");
+      System.out.println("Good Morning");
+        System.out.println("Good Morning");
+          System.out.println("Good Morning");
+          
+          To make the above code look cleaner, we use loops
+          
+          Types of loop
+          1. While loop
+          2. Do while loop
+          3. For loop
+          4. Enhanced loop
+          
+          Loop works with condition. if condition is true, loop will run. if condition if false, loop will not run

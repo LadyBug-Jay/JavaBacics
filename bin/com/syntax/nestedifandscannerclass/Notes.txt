@@ -1,0 +1,20 @@
+                      NestedIf 
+The 4th variation of the If statement is the Nested If           
+               Nested if conditions are conditions which are dependent on each other. 
+               If outer condition is true, the inner condition is never checked. 
+               Inner condition is only checked when outer condition is passed            
+                      
+                      
+                      
+                      
+                            
+                      
+                      
+                      
+                      SCANNER
+                      
+ nextLine is a special method that can capture spaces and enters as we
+ when we use any method like nextInt() or nextBoolean(), nextDouble() and after that if we use
+ nextLine() we need to discard that enter by using an extra nextLine() call 
+                 
+                      
