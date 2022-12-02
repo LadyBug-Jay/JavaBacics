@@ -1,4 +1,4 @@
-package com.syntax.class10;
+package com.syntax.2Darrays;
 
 public class TwoDArray2 {
 
