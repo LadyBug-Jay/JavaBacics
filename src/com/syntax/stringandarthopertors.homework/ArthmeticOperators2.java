@@ -1,4 +1,4 @@
-package com.syntax.class02.homework;
+package com.syntax.stringandarthopertors.homework;
 
 public class ArthmeticOperators2 {
 
