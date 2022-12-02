@@ -1,4 +1,4 @@
-package com.syntax.class03.homework;
+package com.syntax.castingandifstatement.homework;
 
 public class EvenAndOddnumber {
 
