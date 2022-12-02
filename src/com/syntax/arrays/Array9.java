@@ -1,4 +1,4 @@
-package com.syntax.class09;
+package com.syntax.arrays;
 
 public class Array9 {
 
